@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import logo from "./assets/logo.svg"
-import Card from './components/card'
+import Card from './components/Card'
 
 function App() {
   let [card, setcard] = useState([])
